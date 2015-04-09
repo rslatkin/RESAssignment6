@@ -14,6 +14,7 @@
 		A3814D4D1AD6288F008D27F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3814D4C1AD6288F008D27F0 /* Images.xcassets */; };
 		A3814D501AD6288F008D27F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3814D4E1AD6288F008D27F0 /* LaunchScreen.xib */; };
 		A3814D5C1AD62890008D27F0 /* RESAssignment6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3814D5B1AD62890008D27F0 /* RESAssignment6Tests.swift */; };
+		A3DFF42E1AD62AA900A65E3B /* vcMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DFF42D1AD62AA900A65E3B /* vcMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A3814D551AD62890008D27F0 /* RESAssignment6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESAssignment6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3814D5A1AD62890008D27F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3814D5B1AD62890008D27F0 /* RESAssignment6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESAssignment6Tests.swift; sourceTree = "<group>"; };
+		A3DFF42D1AD62AA900A65E3B /* vcMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +84,10 @@
 				A3814D421AD6288F008D27F0 /* AppDelegate.swift */,
 				A3814D471AD6288F008D27F0 /* ViewController.swift */,
 				A3814D491AD6288F008D27F0 /* Main.storyboard */,
+				A3814D441AD6288F008D27F0 /* RESAssignment6.xcdatamodeld */,
+				A3DFF42D1AD62AA900A65E3B /* vcMain.swift */,
 				A3814D4C1AD6288F008D27F0 /* Images.xcassets */,
 				A3814D4E1AD6288F008D27F0 /* LaunchScreen.xib */,
-				A3814D441AD6288F008D27F0 /* RESAssignment6.xcdatamodeld */,
 				A3814D401AD6288F008D27F0 /* Supporting Files */,
 			);
 			path = RESAssignment6;
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3814D481AD6288F008D27F0 /* ViewController.swift in Sources */,
+				A3DFF42E1AD62AA900A65E3B /* vcMain.swift in Sources */,
 				A3814D461AD6288F008D27F0 /* RESAssignment6.xcdatamodeld in Sources */,
 				A3814D431AD6288F008D27F0 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				A3814D611AD62890008D27F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3814D621AD62890008D27F0 /* Build configuration list for PBXNativeTarget "RESAssignment6Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				A3814D641AD62890008D27F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
